@@ -1,17 +1,14 @@
-import Profile from "./Profile";
-import UserProfile from "./Profile";
-import { Address, Contact } from "./ProfileContainer";
+import DefaultAndNamedExport from "./3_defaultAndNamed/DefaultAndNamedExport";
 
 const ExportAndImportContainer = () => {
   return (
     <div>
       {/* default export */}
-      <Profile />
-      <UserProfile />
-
+      {/* <DefaultExport /> */}
       {/* named export */}
-      <Contact />
-      <Address />
+      {/* <NamedExport /> */}
+      {/* default and named export */}
+      <DefaultAndNamedExport />
     </div>
   );
 };
