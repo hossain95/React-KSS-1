@@ -1,5 +1,8 @@
 export default function FamiliarWithProps() {
-    return (
+  return (
+    <div>
+      <h1>Familiar with props</h1>
+      <hr />
       <img
         className="avatar"
         src="https://i.imgur.com/1bX5QH6.jpg"
@@ -7,6 +10,6 @@ export default function FamiliarWithProps() {
         width={200}
         height={200}
       />
-    );
-  }
-  
+    </div>
+  );
+}

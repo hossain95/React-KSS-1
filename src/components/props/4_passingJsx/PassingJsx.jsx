@@ -11,6 +11,8 @@ const userInfo = {
 export default function PassingJsx() {
   return (
     <div>
+      <h1>Passing JSX</h1>
+      <hr />
       <Profile />
       <UserInfo userInfo={userInfo} />
     </div>

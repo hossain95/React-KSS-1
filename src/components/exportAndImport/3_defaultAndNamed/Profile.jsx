@@ -1,6 +1,7 @@
 export default function Profile() {
   return (
     <div>
+      <h3>User Profile</h3>
       <ul>
         <li>Name: Kamal</li>
         <li>Email: kamal@gmail.com</li>
@@ -13,7 +14,7 @@ export default function Profile() {
 export function Address() {
   return (
     <div>
-      <h1>Address</h1>
+      <h3>Address</h3>
       <ul>
         <li>village: Sundarpur</li>
         <li>P.O: Kabilpur</li>
@@ -25,7 +26,7 @@ export function Address() {
 export function Contact() {
   return (
     <div>
-      <h1>Contact</h1>
+      <h3>Contact</h3>
       <ul>
         <li>phone: 012345678901</li>
         <li>email: exmaple@exmaple.com</li>
